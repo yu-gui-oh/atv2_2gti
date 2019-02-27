@@ -1,0 +1,83 @@
+#roxo{
+    background-color: mediumslateblue;
+}
+#menu{
+    width: 100%;
+    height: 50px;
+    background-color: #006666;
+}
+#esquerda, #direita{
+    width: 50%;
+    background-color: mediumslateblue;
+    min-height: 500px;
+    float: left;            
+}
+.imagem{
+    
+    height: 310px;
+    width: 300px;
+}
+body{
+    margin: 0px;
+    padding: 0px;
+}
+h1, h2{
+    margin: 0px;
+    padding-top: 5px;
+    text-align: center;
+    color: #f0f0f0;
+}
+h3, p{
+    margin: 10px;
+}
+p {
+    font-family: 'Arial';
+    font-size: 0.8em;
+    margin-top: 12pt;
+}
+ol li {
+    font-family: 'Arial';
+    font-size: 1em;
+    color: #303030;
+}
+ul li {
+    font-family: 'Arial';
+    font-size: 0.9em;
+}
+#topo{
+    width: 100%; 
+    height: 50px;
+    background-color: #990033;
+}
+.lista{
+    width: 50%;
+    min-height: 170px;
+    background-color: #efd251;
+    float: left;
+}
+#subcabec{
+    width: 100%; 
+    height: 50px;
+    background-color: #990033;
+    float: left;
+}
+.negrito{
+    font-weight: bold;
+    font-size: 1em;
+}
+.corpo{
+    width: 100%;
+    min-height: 200px;
+    float: left;
+    background-color: #babac3;
+}
+@media(max-width: 500px){
+    .lista, .corpo{
+        width: 100%;
+        clear: both;
+    }
+    #esquerda, #direita{
+        width: 100%;
+        clear: both;
+    }
+}
